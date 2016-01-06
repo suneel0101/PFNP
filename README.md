@@ -176,6 +176,6 @@ Get into groups of 3-4. Suppose you just got funded to build an Uber clone and y
 4. Create a task list for the designers and developers on your team.
 
 # Next Steps
-- Learn to code?
+- Learn to code? Flatiron School | General Assembly Workshops | General Assembly WDI
 - Learn to design?
 - Learn product/project management?
