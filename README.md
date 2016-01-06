@@ -1,12 +1,19 @@
 # Programming for Non-Programmers
 
 # The Objectives
-ADD OBJECTIVES HERE!
+Students will be able to
+- explain how websites are served
+- describe what HTML, CSS and JavaScipt are for
+- discuss what server-side languages are
+- explain what a database is
+- explain what a systems administrator does
+- program very basic html, css and Python
+- decide what next steps they need to take for their programming-related education
 
 # The Plan of Attack
 0. Say Hi
 1. What's Programming (Sandwich Algorithm) (30)
-2. How do websites work? (15)
+2. How do websites work? (10)
 3. HTML (45)
 4. CSS (30)
 5. Javascript (15)
@@ -155,9 +162,18 @@ You're an e-commerce startup.
 - Rackspace
 
 # Web Development
-- What is web development?
-- What are the stages of web development?
-- What are some common development methodologies?
+0. What is web development?
+1. What are the stages of web development?
+2. What are some common development methodologies?
+
+## Product Management Exercise
+Get into groups of 3-4. Suppose you just got funded to build an Uber clone and you have a team of rockstar developers and designers.
+
+0. What are the features we need for a minimum viable product?
+1. What are some nice-to-have features?
+2. What are the dependencies between those features? Do some need to be done first in order to achieve the others?
+3. Which are the most difficult features? Take those and break them down into smaller features.
+4. Create a task list for the designers and developers on your team.
 
 # Next Steps
 - Learn to code?
