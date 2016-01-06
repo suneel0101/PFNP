@@ -90,6 +90,11 @@ What if we want to make a website change in some way when a user interacts with 
 0. What are some examples of user interactions and website responses?
 1. Let's add some javascript.
 
+## Examples of really cool JS apps
+- [Obama's Budget Proposal](http://www.nytimes.com/interactive/2012/02/13/us/politics/2013-budget-proposal-graphic.html)
+- [D3 collision detection](http://mbostock.github.io/d3/talk/20111018/collision.html)
+- [CrimeTimeline](http://crimetimeline.io/)
+
 ## Useful Javascript libraries
 - [jQuery](http://jquery.com/)
 - [Backbone](http://backbonejs.org/)
