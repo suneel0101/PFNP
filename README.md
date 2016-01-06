@@ -31,12 +31,36 @@ This should lead us to a working definition of programming.
 Get into groups of 3-4 and write instructions for me to make a PB&J sandwich.
 
 # How do websites work
+[MAYBE A YOUTUBE VIDEO]()
 
 # HTML
+1. Download Chrome if you don't have it
+2. View source from their browser for a few different example websites
+3. Let's try our own
+4. Programming exercise
 
 # CSS
+What if we want to make it look pretty?
+
+1. Let's view source again and find the stylesheets.
+2. Let's go back to our example and add some styles.
+3. Let's put that into its own stylesheet.
+4. A few exercises.
 
 # Javascript
+
+What if we want to make a website change in some way when a user interacts with it?
+
+1. Let's add some javascript.
+
+## Useful Javascript libraries
+- [jQuery]()
+- [Backbone]()
+- [reactJS]()
+- [emberJS]()
+- [angularJS]()
+
+# What about the server?
 
 # Backend languages
 ## Questions
