@@ -179,6 +179,7 @@ Read: [What is an API?](http://readwrite.com/2013/09/19/api-defined)
 In your everyday lives, where is data science/ predictive technology being used? What are some examples?
 
 ### Examples
+Read: [Netflix](http://www.nytimes.com/2013/02/25/business/media/for-house-of-cards-using-big-data-to-guarantee-its-popularity.html)
 
 ### How does machine learning work?
 - features
