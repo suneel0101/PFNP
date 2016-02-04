@@ -15,9 +15,11 @@ Get into groups of 3 and answer the following questions:
 1. What positions on your team do you need to build this service?
 2. What do you think would be an ideal development workflow between those team members?
 
-### Note: Waterfall vs. Agile
-- ![Waterfall development](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Waterfall_model.svg/700px-Waterfall_model.svg.png)
-- ![Agile](http://arborseed.com/wp-content/uploads/2015/09/AgileD.png)
+### Waterfall
+![Waterfall development](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Waterfall_model.svg/700px-Waterfall_model.svg.png)
+
+### Agile
+![Agile](http://arborseed.com/wp-content/uploads/2015/09/AgileD.png)
 
 ## Features [00:25]
 - users can search for upcoming classes/workshops by indicating their city and typing in a query, selecting a category, and/or selecting a timeframe.
@@ -40,6 +42,7 @@ Get into groups of 3 and answer the following:
 We'll watch 3 minutes of [this video](https://www.youtube.com/watch?v=EUB113i_mzA) on `What is SQL?`
 
 Questions:
+
 1. What is SQL?
 2. What is a table?
 3. What is a query?
@@ -96,6 +99,7 @@ Ok, we have the features. We decided what language to use on the back-end and wh
 Let's watch [this clip](http://git-scm.com/video/what-is-version-control) on what version control is.
 
 Questions:
+
 1. What is version control?
 2. Why is it useful?
 3. In what setting does git really shine?
