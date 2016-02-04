@@ -1,58 +1,177 @@
 # Programming for Non-Programmers
 
-# The Objectives
+# Objectives
 Students will be able to
-- explain how websites are served
-- describe what HTML, CSS and JavaScipt are for
-- discuss what server-side languages are
-- explain what a database is
-- explain what a systems administrator does
-- program very basic html, css and Python
-- decide what next steps they need to take for their programming-related education
+- communicate and work more effectively with developers
+- clearly explain different parts of the development ecosystem and workflow
+- identify next steps if they want to learn to code
 
-# The Plan of Attack
-0. Say Hi
-1. What's Programming (Sandwich Algorithm) (30)
-2. How do websites work? (10)
-3. HTML (45)
-4. CSS (30)
-5. Javascript (15)
-6. What about servers? Backend languages (30)
-7. A taste of python programming (30)
-8. Databases (30)
-9. Web development workflow and methodologies (30)
-10. Next steps (5)
-11. Questions (10)
-12. Bon Voyage!
+# Case Study
+We're building an education search engine that allows a user to find courses and workshops in their city that are relevant to their interests.
 
-# What's Programming? (Sandwich Algorithm)
-This should lead us to a working definition of programming.
+## Exercise (Dev Workflow) [00:10]
+Get into groups of 3 and answer the following questions:
+
+1. What positions on your team do you need to build this service?
+2. What do you think would be an ideal development workflow between those team members?
+
+### Note: Waterfall vs. Agile
+- ![Waterfall development](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Waterfall_model.svg/700px-Waterfall_model.svg.png)
+- ![Agile](http://arborseed.com/wp-content/uploads/2015/09/AgileD.png)
+
+## Features [00:25]
+- users can search for upcoming classes/workshops by indicating their city and typing in a query, selecting a category, and/or selecting a timeframe.
+- users can create an account but not required for search
+- users must have an account to sign up for a class
+
+## Exercise (Data)
+Get into groups of 3 and answer the following:
+
+1. What pieces of information do we want to collect when the user signs up?
+2. What pieces of information do we need to display search results?
+3. What usage information do we want to track?
+4. Where should we store this information?
+
+## Databases [00:35]
+- SQL (has schema, is relational)
+- noSQL (non-relational)
+
+### Video
+We'll watch 3 minutes of [this video](https://www.youtube.com/watch?v=EUB113i_mzA) on `What is SQL?`
+
+Questions:
+1. What is SQL?
+2. What is a table?
+3. What is a query?
+4. What does `SELECT` do?
+5. What does `WHERE` do?
+
+Note: SQL is a core skill that a product analyst should have.
 
 ## Exercise
-Get into groups of 3-4 and write instructions for me to make a PB&J sandwich.
+Together, on the board, we will hand-write a table with user info, a table with search result info and a table with event info and see how they relate.
 
-# How do websites work
-[Video](https://www.youtube.com/watch?v=D8c4JZW73cM)
+## Building the App / How does the web work? [00:50]
+Let's check out this [video](https://www.youtube.com/watch?v=D8c4JZW73cM) on how the web works.
 
-## Questions
-Let's walk through all the steps between when you enter a URL in your browser and after the webpage has loaded.
-
+### Questions
 1. What does a domain name service (DNS) do?
 2. What language are websites written in?
 3. What is a server?
 
-# HTML
-1. Download Chrome if you don't have it
+### Languages of the web
+#### Front-end
+- HTML
+- CSS
+- JavaScript
 
-## Example websites
-0. [GA](https://generalassemb.ly/)
-1. [Simple Fractal](http://simplefractal.com/work/)
+#### Back-end
+- PHP
+- Python
+- Ruby
+- Java
 
-## Let's create our own website
-0. Create a new folder called PFNP
-1. In that folder create a new file called `index.html`
-2. In that file, enter the code below:
+### Web Frameworks
+Read [this article](http://tutorial.djangogirls.org/en/django/index.html) on Django and web frameworks.
 
+- In Ruby: Rails, Sinatra
+- In Python: [Django](https://www.djangoproject.com/start/overview/), Flask
+- In PHP: CakePHP, CodeIgniter
+
+## More Development Process [01:10]
+Ok, we have the features. We decided what language to use on the back-end and what framework to use.
+
+1. How do we communicate with the developers?
+2. How do the developers work with each other?
+
+## Communication
+- [Trello](https://trello.com/b/JrhD1plm/course-search-engine-pfnp)
+- Slack
+
+## Developer Collaboration [01:20]
+- git
+- github
+
+### Version Control
+Let's watch [this clip](http://git-scm.com/video/what-is-version-control) on what version control is.
+
+Questions:
+1. What is version control?
+2. Why is it useful?
+3. In what setting does git really shine?
+4. What is a merge?
+
+### Exercise (Git Reading)
+Together, we will read [this quora answer](https://www.quora.com/How-can-I-explain-what-Git-is-does-to-someone-who-is-not-a-programmer/answer/Jake-Boxer) on what `git` is.
+
+### GitHub
+- Code Repositories
+- Public vs Private Repositories
+
+- [Example Public (Open Source) GitHub Repository](https://github.com/django/django)
+- [Another Github Repo Example](https://github.com/suneel0101/django-easyrest)
+- [Example Pull Request](https://github.com/pennypacker-labs/partake/pull/111)
+
+## Testing [01:30]
+How do we know if what we built works? Manual QA? Pros/Cons?
+
+## Types of Automated Tests
+- unit tests ([example](https://gist.github.com/suneel0101/d60d375c0f285b56d68e))
+- functional tests
+- integration tests ([Selenium](http://www.seleniumhq.org/))
+
+### Exercise
+Get in groups of 3 and discuss the following:
+
+1. When and why you would have your developers write automated tests for the application
+2. When and why you would not have them write automated tests
+
+## Deployment [01:45]
+Ok now we built it. How do we publish it to the world? Where does our code live?
+
+### Web Hosting
+### Exercise (Hosting Reading)
+Read [this article](http://smashingboxes.com/blog/heroku-vs-amazon-web-services) and discuss with a partner:
+
+1. What is AWS?
+2. What is Heroku?
+3. How are they different?
+4. When would you choose one over the other?
+
+- [Amazon Web Services (AWS)](https://aws.amazon.com/)
+- [Heroku](https://www.heroku.com/)
+
+## Analysis
+### Third-Party Tools
+- [Google Analytics](https://www.google.com/analytics/)
+- [Mixpanel](https://mixpanel.com/)
+
+### Visualization
+- [Obama's Budget Proposal](http://www.nytimes.com/interactive/2012/02/13/us/politics/2013-budget-proposal-graphic.html)
+- [D3 collision detection](http://mbostock.github.io/d3/talk/20111018/collision.html)
+- [CrimeTimeline](http://crimetimeline.io/)
+- [Tableau](http://www.tableau.com/)
+
+### In-house
+- analyst with SQL/Excel skills
+- create internal dashboard
+- google analytics
+
+## Data Science
+- big data
+- predictions
+- data mining
+
+### Applications
+
+### Exercise
+
+### Skills Required
+
+## Dive into Front-end [2:30]
+We will use [CodePen](http://codepen.io/pen/) to build a webpage.
+
+### Skeleton
 ```html
 <html>
 <body>
@@ -61,126 +180,39 @@ Let's walk through all the steps between when you enter a URL in your browser an
 </html>
 ```
 
-## Let's add some more elements
-0. header text
-1. images
-2. links
+### Let's Add More Content
+- header text
+- links
+- divs
 
-# CSS
-What if we want to make it look pretty?
+### Exercise
+1. Create a page that contains a list of 4 course entries, displaying the title, rating number (between 1 and 5) and description.
+2. Then link each title to any external webpage.
 
-## Let's check out some stylesheets.
-Let's view source again and find the stylesheets.
+### Let's add SEO tags
+1. We'll add a page title
+2. We'll add the description
+3. We'll add SEO keywords
 
-## Prettifying our page
+### Let's Style Our Page with CSS
 0. Let's add a background color
 1. Let's add a different color for links
-2. Let's change the h1 font size.
-3. Let's put that into its own stylesheet.
+2. Make the title bold.
 
-## Exercise
-Create a file called `about.html` that contains an h1 element with your name and a paragraph or two about you and a link to your linkedin page.
+### Exercise
+1. Make the color of the description text green.
+2. Make the font size of the title 24px.
 
-**Bonus**: Add a link to index.html that takes the user to about.html.
+### Let's make our page interactive
+Let's create an alert when a user clicks on the description.
 
-# Javascript
+## Dive into Back-end [03:00]
+- Basic Data Types
+- If / Else
+- Lists
 
-What if we want to make a website change in some way when a user interacts with it?
-
-0. What are some examples of user interactions and website responses?
-1. Let's add some javascript.
-
-## Examples of really cool JS apps
-- [Obama's Budget Proposal](http://www.nytimes.com/interactive/2012/02/13/us/politics/2013-budget-proposal-graphic.html)
-- [D3 collision detection](http://mbostock.github.io/d3/talk/20111018/collision.html)
-- [CrimeTimeline](http://crimetimeline.io/)
-
-## Useful Javascript libraries
-- [jQuery](http://jquery.com/)
-- [Backbone](http://backbonejs.org/)
-- [reactJS](https://facebook.github.io/react/)
-- [emberJS](http://emberjs.com/)
-- [angularJS](https://angularjs.org/)
-
-# What about the server? (Backend languages)
-## Questions
-1. What's a (backend, a.k.a. "server-side") programming language?
-2. What should a programming language allow us to do?
-
-## Common backend programming languages
-- c
-- c++
-- PHP
-- Java
-- Python
-- Ruby
-
-## Exercise
-0. Get into groups of 3-4,
-1. Read [this article](https://medium.com/aws-activate-startup-blog/choosing-the-right-programming-language-for-your-startup-b454be3ed5e2#.ocah02fv8) on choosing the right programming language.
-
-### Questions
-0. If you have a large legacy codebase in Java, what language should you use?
-1. If you want to do data science, machine learning or anything scientific, which language?
-2. If you want to build something very quickly, what language should you use?
-3. If you want something that is real-time (like a chat app) and very scalable, what should you use?
-
-Takeaway: choice of language really depends on the situation and skill-set of the team
-
-# A Taste of Python Programming
-## Topics
-- data types
-- printing
-- math
-- a function
-- the random library
-
-## Exercises
-0. Open up [Repl.it][http://repl.it]
-1. Go to Python 3.
-
-# Databases
-## Thought Experiment
-You're an e-commerce startup.
-
-0. When a user signs up, what pieces of info will you collect?
-1. When the user checks out what's in their cart, what info will you collect?
-
-## Types of DBs
-- SQL
-- noSQL
-
-# Systems Administration
-
-## Questions
-1. What does a sys-admin (also called dev-ops in certain companies) do?
-2. What are some of the tools/languages they use?
-
-## Some Sys Admin tools
-- Chef: IT systems automation
-- Puppet: IT systems automation
-- Ansible: It systems automation
-
-## Hosting services
-- Digital Ocean
-- AWS
-- Rackspace
-
-# Web Development
-0. What is web development?
-1. What are the stages of web development?
-2. What are some common development methodologies?
-
-## Product Management Exercise
-Get into groups of 3-4. Suppose you just got funded to build an Uber clone and you have a team of rockstar developers and designers.
-
-0. What are the features we need for a minimum viable product?
-1. What are some nice-to-have features?
-2. What are the dependencies between those features? Do some need to be done first in order to achieve the others?
-3. Which are the most difficult features? Take those and break them down into smaller features.
-4. Create a task list for the designers and developers on your team.
-
-# Next Steps
-- Learn to code? Flatiron School | General Assembly Workshops | General Assembly WDI
-- Learn to design?
-- Learn product/project management?
+## Possible Next Steps [03:40]
+- Learn to code (Intro Python / Bootcamp / WDI / Flatiron)
+- Learn to design
+- Learn to product manage
+- Learn data analytics (Intro to Data Analytics, Data Analytics Part-Time)
