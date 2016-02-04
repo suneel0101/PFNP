@@ -238,7 +238,7 @@ Open [Repl.it](http://repl.it) and select `Python 3`.
 - If / Else
 - Lists
 
-## Possible Next Steps [03:40]
+# Possible Next Steps [03:40]
 - Learn to code (Intro Python / Bootcamp / WDI / Flatiron)
 - Learn to design
 - Learn to product manage
