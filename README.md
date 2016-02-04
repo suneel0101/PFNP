@@ -9,9 +9,6 @@ Students will be able to
 # Case Study
 We're building an education search engine that allows a user to find courses and workshops in their city that are relevant to their interests.
 
-## Exercise (Dev Workflow) [00:10]
-Get into groups of 3 and answer the following questions:
-
 1. What positions on your team do you need to build this service?
 2. What do you think would be an ideal development workflow between those team members?
 
