@@ -160,4 +160,8 @@ Read [this article](http://smashingboxes.com/blog/heroku-vs-amazon-web-services)
 
 ## Dive into Back-end
 
-## Next Steps
+## Possible Next Steps
+- Learn to code (Intro Python / Bootcamp / WDI / Flatiron)
+- Learn to design
+- Learn to product manage
+- Learn data analytics (Intro to Data Analytics, Data Analytics Part-Time)
