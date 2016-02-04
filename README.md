@@ -74,6 +74,11 @@ Let's check out this [video](https://www.youtube.com/watch?v=D8c4JZW73cM) on how
 ### Web Frameworks
 Read [this article](http://tutorial.djangogirls.org/en/django/index.html) on Django and web frameworks.
 
+#### Questions:
+1. What does a web framework do?
+
+#### Some other frameworks:
+
 - In Ruby: Rails, Sinatra
 - In Python: [Django](https://www.djangoproject.com/start/overview/), Flask
 - In PHP: CakePHP, CodeIgniter
