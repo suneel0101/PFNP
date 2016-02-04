@@ -228,6 +228,11 @@ We will use [CodePen](http://codepen.io/pen/) to build a webpage.
 Let's create an alert when a user clicks on the description.
 
 ## Dive into Back-end [03:00]
+Let's learn some basic Python.
+
+### Instructions
+Open [Repl.it](http://repl.it) and select `Python 3`.
+
 - Basic Data Types
 - If / Else
 - Lists
