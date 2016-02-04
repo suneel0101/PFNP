@@ -111,9 +111,6 @@ Questions:
 Together, we will read [this quora answer](https://www.quora.com/How-can-I-explain-what-Git-is-does-to-someone-who-is-not-a-programmer/answer/Jake-Boxer) on what `git` is.
 
 ### GitHub
-- Code Repositories
-- Public vs Private Repositories
-
 - [Example Public (Open Source) GitHub Repository](https://github.com/django/django)
 - [Another Github Repo Example](https://github.com/suneel0101/django-easyrest)
 - [Example Pull Request](https://github.com/pennypacker-labs/partake/pull/111)
