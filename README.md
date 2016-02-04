@@ -166,11 +166,19 @@ Read [this article](http://smashingboxes.com/blog/heroku-vs-amazon-web-services)
 - predictions
 - data mining
 
-### Applications
-
 ### Exercise
+In your everyday lives, where is data science/ predictive technology being used? What are some examples?
+
+### Examples
+
+### How does machine learning work?
+- features
+- target
+- test set vs. training set
 
 ### Skills Required
+- R / Python
+- Stats, linear algebra
 
 ## Dive into Front-end [2:30]
 We will use [CodePen](http://codepen.io/pen/) to build a webpage.
