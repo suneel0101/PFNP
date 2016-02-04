@@ -144,6 +144,16 @@ Read [this article](http://smashingboxes.com/blog/heroku-vs-amazon-web-services)
 - [Amazon Web Services (AWS)](https://aws.amazon.com/)
 - [Heroku](https://www.heroku.com/)
 
+## APIs
+### Exercise
+Read: [What is an API?](http://readwrite.com/2013/09/19/api-defined)
+
+### Questions
+1. What is an API?
+2. When would you use one?
+3. What are some common ones?
+4. When should you create one?
+
 ## Analysis
 ### Third-Party Tools
 - [Google Analytics](https://www.google.com/analytics/)
