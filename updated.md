@@ -146,21 +146,72 @@ Read [this article](http://smashingboxes.com/blog/heroku-vs-amazon-web-services)
 - [Google Analytics](https://www.google.com/analytics/)
 - [Mixpanel](https://mixpanel.com/)
 
-### In-house [2:00]
+### Visualization
+- [Obama's Budget Proposal](http://www.nytimes.com/interactive/2012/02/13/us/politics/2013-budget-proposal-graphic.html)
+- [D3 collision detection](http://mbostock.github.io/d3/talk/20111018/collision.html)
+- [CrimeTimeline](http://crimetimeline.io/)
+- [Tableau](http://www.tableau.com/)
+
+### In-house
 - analyst with SQL/Excel skills
 - create internal dashboard
 - google analytics
 
-## Data Science [2:20]
+## Data Science
 - big data
 - predictions
 - data mining
 
-## Dive into Front-end
+### Applications
 
-## Dive into Back-end
+### Exercise
 
-## Possible Next Steps
+### Skills Required
+
+## Dive into Front-end [2:30]
+We will use [CodePen](http://codepen.io/pen/) to build a webpage.
+
+### Skeleton
+```html
+<html>
+<body>
+  <p>Hello!</p>
+</body>
+</html>
+```
+
+### Let's Add More Content
+- header text
+- links
+- divs
+
+### Exercise
+1. Create a page that contains a list of 4 course entries, displaying the title, rating number (between 1 and 5) and description.
+2. Then link each title to any external webpage.
+
+### Let's add SEO tags
+1. We'll add a page title
+2. We'll add the description
+3. We'll add SEO keywords
+
+### Let's Style Our Page with CSS
+0. Let's add a background color
+1. Let's add a different color for links
+2. Make the title bold.
+
+### Exercise
+1. Make the color of the description text green.
+2. Make the font size of the title 24px.
+
+### Let's make our page interactive
+Let's create an alert when a user clicks on the description.
+
+## Dive into Back-end [03:00]
+- Basic Data Types
+- If / Else
+- Lists
+
+## Possible Next Steps [03:40]
 - Learn to code (Intro Python / Bootcamp / WDI / Flatiron)
 - Learn to design
 - Learn to product manage
